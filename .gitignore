@@ -7,10 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+#需要忽略的文件：1.复制路径 2.将反斜杠变成正斜杠（/src/assets）
 node_modules
 dist
 dist-ssr
 *.local
+README.md
 
 # Editor directories and files
 .vscode/*
